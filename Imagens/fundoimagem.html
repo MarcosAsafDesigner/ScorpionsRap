@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrados Coloridos</title>
+    <style>
+        body{
+            background-image: url("fundo.png");
+            background-size: 1000px 1000px;
+            background-repeat: repeat;
+        }
+        .quadrado {
+            display: inline-block;
+            border: 2px solid black; /* Corrigido: Remover a vírgula */
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+        }
+
+        #q1 {
+            background-color: rgb(145, 48, 48);
+        }
+
+        #q2 {
+            background-color: blue;
+        }
+
+        #q3 {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+</body>
+</html>
